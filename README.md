@@ -1,5 +1,12 @@
 # Ravi Seth websites
 
+## Separate project repositories
+
+- [Real estate source and backend](https://github.com/Mukesh-004/ravi-seth-real-estate)
+- [Boutique and cars source and backend](https://github.com/Mukesh-004/ravi-seth-boutique)
+
+Each project runs independently with its own homepage, database and Content Studio. This repository retains the original shared project.
+
 This repository contains the editable project source, including the public pages, backend, Content Studio, integrations and tests. Clone it with `git clone https://github.com/Mukesh-004/ravi-seth-websites.git`, then follow the run instructions below. Downloadable packages can be generated from the source with `powershell -File scripts/build-packages.ps1`.
 
 The estate, boutique and car views share one codebase and mobile content studio. The two publish packages deploy independently: the estate package shows property and editorial content; the boutique package shows clothing and the secondary car section. Each deployment has its own SQLite database and media folder. The car view has a separate responsive 2D design with light motion that respects reduced-motion settings.
