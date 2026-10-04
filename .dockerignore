@@ -1,0 +1,6 @@
+data
+uploads
+.env
+*.zip
+tests
+node_modules
